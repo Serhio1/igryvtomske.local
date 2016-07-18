@@ -1,0 +1,20 @@
+/*
+Theme Name: Parasponsive 
+Theme URI: http://gogetthemes.com
+Description: A premium theme built on base Option Tree 
+Author: GoGetThemes
+Author URI: http://gogetthemes.com/
+Version: 1.0
+License URI: http://gogetthemes.com/
+
+*/
+@import 'css/normalize.css';
+@import 'css/bootstrap.css';
+@import "css/main.css";
+@import "css/magnific-popup.css";
+@import 'css/team.css';
+@import 'css/fresco.css';
+@import 'css/jquery.bxslider.css';
+@import "css/style.css";
+@import "fonts/zocial.css";
+@import "css/font-awesome.min.css";

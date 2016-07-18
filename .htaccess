@@ -1,0 +1,109 @@
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+<Files 403.shtml>
+order allow,deny
+allow from all
+</Files>
+
+deny from 188.163.109.78
+deny from 182.73.97.114
+deny from 93.115.87.203
+deny from 213.24.113.5
+deny from 121.124.127.21
+deny from 31.134.112.145
+deny from 211.110.140.149
+deny from 124.232.146.46
+deny from 190.151.28.138
+deny from 5.44.217.2
+deny from 80.243.66.194
+deny from 218.89.129.136
+deny from 58.132.8.221
+deny from 104.47.101.219
+deny from 104.47.101.209
+deny from 104.47.101.207
+deny from 54.198.45.28
+deny from 217.23.6.90
+deny from 121.207.228.114
+deny from 119.254.116.130
+deny from 221.228.195.60
+deny from 46.72.165.179
+deny from 46.247.10.189
+deny from 91.211.56.215
+deny from 121.42.38.134
+deny from 119.90.34.142
+deny from 193.109.254.108
+deny from 210.94.176.237
+deny from 210.94.176.238
+deny from 123.51.190.154
+deny from 114.112.99.5
+deny from 40.113.124.96
+deny from 94.100.176.189
+deny from 37.59.55.135
+deny from 112.74.254.54
+deny from 118.91.233.121
+deny from 40.69.34.241
+deny from 98.172.118.175
+deny from 76.72.164.198
+deny from 58.215.187.177
+deny from 203.144.176.148
+deny from 190.213.180.38
+deny from 211.77.5.41
+deny from 91.217.63.72
+deny from 85.214.65.64
+deny from 37.187.146.46
+deny from 212.101.201.130
+deny from 185.84.180.12
+
+<files wp-config.php>
+Order deny,allow
+deny from all
+allow from 127.0.0.1
+</files>
+<Files .htaccess>
+order allow,deny
+deny from all
+allow from 127.0.0.1
+</Files>
+deny from 104.27.148.10
+deny from 110.80.136.58
+deny from 36.79.168.161
+deny from 45.118.112.162
+deny from 103.218.248.171
+deny from 116.109.112.22
+deny from 90.156.203.194
+deny from 121.40.87.150
+deny from 112.78.43.43
+deny from 122.70.184.178
+deny from 198.2.186.5
+deny from 212.47.241.154
+deny from 78.46.190.100
+deny from 78.96.252.223
+deny from 115.84.99.191
+deny from 103.24.126.119
+deny from 123.231.125.25
+deny from 223.229.82.93
+deny from 63.240.118.173
+deny from 63.240.118.168
+deny from 23.254.128.95
+deny from 203.204.203.210
+deny from 41.162.86.82
+deny from 61.133.102.61
+deny from 58.56.100.138
+deny from 190.223.48.162
+deny from 36.88.156.197
+deny from 52.163.214.89
+deny from 46.239.142.23
+deny from 218.1.125.202
+deny from 120.25.171.104
+deny from 114.242.4.87
+deny from 210.7.13.157
